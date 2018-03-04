@@ -27,7 +27,7 @@ window.onload = () => {
                 <td>${getRandomItem(statuses)}</td>
                 <td>${getRandomItem(servers)}</td>
                 <td>${getRandomItem(sessions)}</td>
-                <td>
+                <td class="actions">
                     <i class="fas fa-minus-circle"></i>
                     <i class="fas fa-ellipsis-h"></i>
                 </td>

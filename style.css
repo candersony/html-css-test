@@ -132,9 +132,16 @@ main table tbody > tr:nth-child(odd) > td {
     background-color: #f5f5f5;
 }
 main table td {
-    padding-left: 0.8rem;
+    padding-left: 0.3rem;
     font-size: 0.9rem;
 }
+main table td.actions {
+    text-align: right;
+}
+main table td.actions > * {
+    margin: 0 0.5rem;
+}
+
 main .table-pager {
     margin: 1.5em auto;
     display: flex;
