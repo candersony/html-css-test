@@ -128,8 +128,25 @@ main table thead th {
     border-bottom: 1px solid #bbc5ca;
     color: #243137;
 }
-main table thead th i {
-    margin-left: 1rem;
+main table thead .table-header-sort-icons {
+    display: inline-block;
+    position: relative;
+    bottom: -0.4rem;
+    margin-left: 0.8rem;
+    height: 100%;
+}
+main table thead .table-header-sort-icons i {
+    position: relative;
+    display: block;
+}
+main table thead .table-header-sort-icons i:first-of-type {
+    bottom: -0.3rem;
+}
+main table thead th.sorted .table-header-sort-icons i {
+    color: #243137;
+}
+main table thead th.sorted .table-header-sort-icons i:first-of-type {
+    visibility: hidden;
 }
 main table tbody > tr:nth-child(odd) > td {
     background-color: #f5f5f5;
