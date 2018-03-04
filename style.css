@@ -125,7 +125,7 @@ main table td {
     margin: 0;
 }
 main table thead th {
-    border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid #bbc5ca;
     color: #243137;
 }
 main table tbody > tr:nth-child(odd) > td {
