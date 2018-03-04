@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 *  {
-    font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    font-family: Roboto, "Open Sans", Verdana, sans-serif;
     box-sizing: border-box;
     margin: 0;
     color: #A0A0A0;
