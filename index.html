@@ -54,6 +54,38 @@
                 </li>
             </ul>
         </nav>
+
+        <main>
+            <section>
+                <div>
+                    <h1>Sessions</h1>
+                    <sub>Manage user Citrix sessions</sub>
+                </div>
+                <div>
+                    <select>
+                        <option>Server</option>
+                    </select>
+                    <input type="search" placeholder="Search users...">
+                </div>
+            </section>
+            <section>
+                <table id="sessions-table">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Logon Time</th>
+                        <th>Client</th>
+                        <th>Status</th>
+                        <th>Server</th>
+                        <th>Session</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+        </main>
+
     </div>
 
     <script src="index.js"></script>
