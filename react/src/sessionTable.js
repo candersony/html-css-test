@@ -30,7 +30,7 @@ class SessionsTable extends React.Component {
                         <td>{session.client}</td>
                         <td>{session.status}</td>
                         <td>{session.server}</td>
-                        <td>{session.session}</td>
+                        <td>{session.sessionType}</td>
                         <td className="actions">
                             <i className="fas fa-minus-circle"></i>
                             <i className="fas fa-ellipsis-h"></i>
