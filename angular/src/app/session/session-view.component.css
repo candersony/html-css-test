@@ -1,0 +1,58 @@
+:host {
+    padding: 2rem 4rem;
+    flex: 7;
+}
+
+h1 {
+    color: #243137;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+}
+
+.header .search-controls > * {
+    margin: 0 0.5rem;
+}
+
+.content {
+    background: #FDFDFE;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.table-pager {
+    margin: 1.5em auto;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+.table-pager > * {
+    margin: 0 0.4em;
+}
+.table-pager select {
+    position: absolute;
+    right: 14em;
+    background: none;
+}
+.table-pager-button {
+    border: 2px solid #BBC5CA;
+    padding: 0.2rem 0.8rem;
+    border-radius: 2px;
+}
+.table-pager-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.table-pager-list li {
+    display: inline-block;
+    padding: 00.2em 0.6em;
+    border-radius: 2px;
+}
+.table-pager-list li.selected {
+    background: #0092DC;
+    color: #FFFFFF;
+}

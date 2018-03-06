@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*  {
+    font-family: Roboto, "Open Sans", Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    color: #A0A0A0;
+}
+
+html {
+    font-size: 16px;
+}
+body, .app-container {
+    height: 100vh;
+}
+input, select {
+    height: 2rem;
+    width: 8rem;
+    border: 0;
+    font-size: inherit;
+}
+input {
+    width: 16rem;
+}
+i {
+    color: #BBC5CA;
+    vertical-align: middle;
+}
+
+.left-column {
+    min-width: 11rem;
+}

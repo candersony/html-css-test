@@ -1,0 +1,30 @@
+
+:host {
+    background: #243238;
+    flex: 1;
+}
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+.nav-item {
+    padding: 0.9rem 1.4rem;
+}
+.nav-item.selected, .nav-item:hover {
+    background: #344750;
+}
+.nav-icon {
+    width: 1.7rem;
+    opacity: 0.4;
+}
+.nav-item.selected .nav-icon {
+    color: #0092DC;
+    opacity: 1;
+}
+.nav-link {
+    color: #6D7E87;
+    text-decoration: none;
+}
+.nav-item.selected .nav-link  {
+    color: #FFFFFF;
+}

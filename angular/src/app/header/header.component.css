@@ -1,0 +1,26 @@
+header {
+    background: #FDFDFE;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    background: #344750;
+    text-align: center;
+    flex: 1;
+}
+.header-content {
+    padding: 0 4rem;
+    flex: 7;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    line-height: 2em;
+}
+.header-company-controls > *,
+.header-user-controls > * {
+    margin: 0 0.5rem;
+}
+
+.header-user-controls .user-icon {
+    font-size: xx-large;
+}
