@@ -7,9 +7,11 @@
     color: #A0A0A0;
 }
 
-body {
-    height: 100vh;
+html {
     font-size: 16px;
+}
+body, .app-container {
+    height: 100vh;
 }
 input, select {
     height: 2rem;
@@ -77,7 +79,7 @@ nav {
     background: #344750;
 }
 .nav-icon {
-    width: 1.3em;
+    width: 1.7rem;
     opacity: 0.4;
 }
 .nav-item.selected .nav-icon {
